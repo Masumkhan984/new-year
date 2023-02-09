@@ -10,6 +10,13 @@ p {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
+    color: #444343;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
 }
 
 /* ===========Header Section============ */
@@ -68,12 +75,48 @@ header {
     width: 40%;
     text-align: right;
 }
+.banner_text > p{
+    color: aliceblue;
+}
 
 h1 {
     font-weight: 700;
     font-size: 65px;
     line-height: 76px;
 }
-.banner_text>p{
+
+.banner_text>p {
     padding: 30px 0px;
 }
+
+/* =========Main Section========= */
+main {
+    padding: 10px 60px;
+}
+
+/* ----Failure area----- */
+.failure_area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.failure_image{
+    width: 60%;
+}
+.failure_text{
+    width: 40%;
+}
+.failure_text > ul >li {
+    margin: 0;
+    padding: 5px 30px;
+    list-style: none;
+    background-image: url("./images/check.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+}
+.failure_text > p{
+    padding: 20px 0px;
+}
+
+/* -----Plans Area----- */
