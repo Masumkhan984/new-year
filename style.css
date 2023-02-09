@@ -4,3 +4,39 @@
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
+/* ===========Header Section============ */
+
+header{
+    padding: 10px 30px;
+    background: url(./images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+}
+/* ---navbar-- */
+.coloring{
+    color: #020151;
+}
+.nav-logo{
+    font-size: 45px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list > ul{
+    display: flex;
+    align-items: center;
+}
+.nav-list > ul >li{
+    list-style: none;
+    margin-left: 45px;
+}
+.btn-primary{
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: none;
+}
+/* ---banner Area--- */
