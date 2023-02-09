@@ -168,4 +168,34 @@ footer{
     background: #151414;
     margin-top: 120px;
     padding: 120px 230px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.socail_footer > p{
+    color: #fff;
+    width: 40%;
+}
+.icons{
+    display: flex;
+    justify-content: start;
+}
+.icon{
+    margin-right: 10px;
+}
+.contact{
+    margin: 10px 0px;
+}
+.contact>p{
+    color: #fff;
+}
+.subscribe_footer{
+    width: 60%;
+}
+.input_field{
+    padding: 20px 5px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    background: #005fac00;
+    border: 1px solid #fff;
 }
